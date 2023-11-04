@@ -31,6 +31,7 @@ class Program
                     journal.AddEntry(prompts[promptIndex], response);
                     break;
 
+
                 case "2":
                     Console.WriteLine("Journal Entries:");
                     journal.DisplayEntries();

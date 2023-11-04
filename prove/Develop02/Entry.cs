@@ -12,6 +12,7 @@ public class Entry
         Date = DateTime.Now;
     }
 
+
     public override string ToString()
     {
         return $"Date: {Date}\nPrompt: {Prompt}\nResponse: {Response}\n";
